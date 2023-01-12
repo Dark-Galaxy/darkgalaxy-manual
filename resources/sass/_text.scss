@@ -112,6 +112,12 @@ a {
   }
 }
 
+html.dark-mode {
+  a {
+    color: #bbb;
+  }
+}
+
 a.no-link-style {
   color: inherit;
   &:hover {

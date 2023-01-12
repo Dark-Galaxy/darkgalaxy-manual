@@ -382,6 +382,12 @@ input[type=color] {
   }
 }
 
+html.dark-mode {
+  .form-group.collapsible .collapse-title label {
+    color: #bbb;
+  }
+}
+
 .title-input input[type="text"] {
   display: block;
   width: 100%;

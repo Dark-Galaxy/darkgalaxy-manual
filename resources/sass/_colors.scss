@@ -41,6 +41,13 @@
   fill: var(--color-primary) !important;
 }
 
+html.dark-mode {
+  .text-primary, .text-primary:hover, .text-primary-hover:hover  {
+    color: #bbb !important;
+    fill: #bbb !important;
+  }
+}
+
 .text-muted {
   @include lightDark(color, #575757, #888888, true);
   fill: currentColor !important;
